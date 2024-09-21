@@ -1,13 +1,12 @@
-import './App.css'
+import "./App.css";
+import AllRoutes from "./Routes/AllRoutes";
 
 function App() {
-  
-
   return (
     <>
-     <h1>Hello World</h1>
+      <AllRoutes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
